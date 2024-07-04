@@ -24,5 +24,6 @@ export async function getStaticProps() {
         };
       }),
     },
+    revalidate: 10,
   };
 }
